@@ -1,6 +1,8 @@
+package src.com.mypetproject;
+
 public class Pet{
     //attribte fields:
-    private String species;
+    public String species;
 
     //constructor method:
     public Pet(String species){
@@ -9,7 +11,7 @@ public class Pet{
     }
 
     //behavior
-    public void getSpecies()){
+    public void getSpecies(){
         System.out.println("This pet is a: " + species);
     }
 

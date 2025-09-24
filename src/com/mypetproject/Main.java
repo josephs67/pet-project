@@ -1,13 +1,16 @@
 //test class
+package src.com.mypetproject;
 
 public class Main{
 
-    public static void marn(String[] args){
+    public static void main(String[] args){
         
-        Pet myPet == new Pet("cat");
+        Pet newAnimal = new Pet("cat");
 
-        myPet.getSpecies();
+        newAnimal.getSpecies();
         
+        Cat newCat = new Cat(7, "orange", "cat");
+        newCat.meow();
     }
 
 }
